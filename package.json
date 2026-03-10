@@ -1,0 +1,31 @@
+{
+  "name": "api-crawler-docs",
+  "version": "1.0.0",
+  "description": "API 爬虫接口文档管理工具 - 一键启动，自动保存到本地文件，方便 AI 分析",
+  "main": "server.js",
+  "bin": {
+    "api-crawler-docs": "node server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "api",
+    "crawler",
+    "docs",
+    "documentation",
+    "curl",
+    "json"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Waicy/api-crawler-docs"
+  },
+  "files": [
+    "server.js",
+    "index.html",
+    "README.md"
+  ]
+}
